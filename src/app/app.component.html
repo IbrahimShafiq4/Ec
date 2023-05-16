@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<div class="container my-5">
+  <router-outlet></router-outlet>
+</div>
+<ng-particles class="particles"
+[id]="id"
+[options]="particlesOptions"
+[particlesInit]="particlesInit"
+></ng-particles>
+<ngx-spinner bdColor = "rgba(0, 0, 0, 0.9)" size = "medium" color = "#fff" type = "square-jelly-box" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
+<app-footer></app-footer>
